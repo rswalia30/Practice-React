@@ -29,3 +29,4 @@ export const restruantList = [
         loc: "Maquboolpura, Amritsar"
     }
 ]
+
