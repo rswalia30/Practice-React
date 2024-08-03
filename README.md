@@ -1,0 +1,4 @@
+# Practice React
+
+- Swiggy
+- Zomato
