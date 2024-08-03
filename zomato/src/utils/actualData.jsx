@@ -160,6 +160,7 @@ export const actualList = [
         "isDisabled": false,
         "bottomContainers": []
     },
+
     {
         "type": "restaurant",
         "info": {
