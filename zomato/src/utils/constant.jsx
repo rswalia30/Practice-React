@@ -1,0 +1,1 @@
+export const REST_IMG = "https://b.zmtcdn.com/data/pictures";
