@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 const Card = (props) => {
-    const { img, name, stars, time, cuisines, loc } = props.res;
+    const { img, name, stars, time, cuisine, loc } = props.res;
     return (
         <div className="col-md-3">
             <div className="card text-dark bg-light my-3">
@@ -21,7 +21,8 @@ const Card = (props) => {
                     </svg>
 
                     <span> {stars} • <b>{time} mins</b></span>
-                    <p>{cuisines}</p>
+                    {/* <p>{cuisine.join(", ")}</p> */}
+                    <p>{cuisine}</p>
                     <p>{loc}</p>
                 </div>
             </div>
